@@ -1,15 +1,24 @@
 # Migrating to zenite
 
-# MariaDB / MySQL
+You can easily move your existing database to zenite. On your existing server, run the following command(s):
 
-You can easily move your existing MariaDB / MySQL database to zenite. On your existing server, run the following command:
-
+### MariaDB / MySQL
 ```
 mysqldump --single-transaction --flush-logs --master-data=2 --databases your-database-name | gzip > database.sql.gz
 ```
 
-Login to zentie and upload the resulting sql.gz file to Server -> Backups -> Upload. After the files is uploaded, click the restore icon to restore the database to the server.
+### PostgreSQL
+```
+pg_dump --dbname your-database-name --username your-username --password your-password --serializable-deferrable --format c --compress 9
+```
 
-# PostgreSQL
+### MongoDB
+```
+mongodump --db your-database-name --username your-username --password your-password --authenticationDatabase admin --archive --gzip --quiet
+```
 
-# MongoDB
+Login to zenite and upload the resulting archive file to Server -> Backups -> Upload. After the files is uploaded, click the restore icon to restore the database on the server.
+
+
+
+
