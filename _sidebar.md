@@ -1,5 +1,5 @@
 - Getting started
-  - [Creating a server](getting_started/creatingserver.md)
+  - [Creating a server](getting_started/creating_server.md)
   - [Migrating an existing database](getting_started/migrating.md)
   - [Writing more pages](more-pages.md)
   - [Custom navbar](custom-navbar.md)
