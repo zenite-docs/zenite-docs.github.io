@@ -2,19 +2,24 @@
 
 You can easily move your existing database to zenite. The process involves creating a backup archive, uploading it through zenite web portal and executing the restore process. On your existing server, run the following command(s):
 
-### MariaDB / MySQL
+#### MariaDB / MySQL
 ```
 mysqldump --single-transaction --flush-logs --master-data=2 --databases your-database-name | gzip > database.sql.gz
 ```
 
-### PostgreSQL
+#### PostgreSQL
 ```
 pg_dump --dbname your-database-name --username your-username --password your-password --serializable-deferrable --format c --compress 9 > database.dmp
 ```
 
-### MongoDB
+#### MongoDB
 ```
 mongodump --db your-database-name --username your-username --password your-password --authenticationDatabase admin --archive --gzip --quiet > database.gz
 ```
 
-After the archive has been created, login to zenite and upload the resulting archive file to server.zenite.io -> Backups -> Upload. After the file has been uploaded, click the restore icon to restore the database onto the server.
+After the archive has been created, do the following actions:
+
+1. Click server.zenite.io -> Backups -> Upload.
+2. Click "Choose Files..." and select an archive that you just created on your server.
+3. Click the "Upload" button.
+4. After the file has been uploaded, click the restore icon in the grid to restore the database onto the server.
