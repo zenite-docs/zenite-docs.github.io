@@ -5,8 +5,8 @@
   - [Custom navbar](custom-navbar.md)
   - [Cover page](cover.md)
 
-- Customization
-  - [Configuration](configuration.md)
+- Queries
+  - [Querying your database](queries/querying.md)
   - [Themes](themes.md)
   - [List of Plugins](plugins.md)
   - [Write a Plugin](write-a-plugin.md)
