@@ -1,7 +1,7 @@
 - Getting started
-  - [Creating a server](start/creating.md)
-  - [Migrating an existing database](start/migrating.md)
-  - [Scaling a server](start/scaling.md)
+  - [Creating a server](start/create.md)
+  - [Migrating an existing database](start/migrate.md)
+  - [Scaling a server](start/scale.md)
 
 - Query
   - [Querying your database](query/query.md)
