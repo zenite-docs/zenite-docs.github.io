@@ -18,8 +18,8 @@
   - [Test](endpoints/test.md)
   
 - Backups
-  - [Manual](backups/manual.md)
-  - [Schedule](backups/schedule.md)
-  - [Upload](backups/upload.md)
+  - [Manual backups](backups/manual.md)
+  - [Scheduled backups](backups/scheduled.md)
+  - [Upload an existing backup](backups/upload.md)
 
 - [Changelog](changelog.md)
