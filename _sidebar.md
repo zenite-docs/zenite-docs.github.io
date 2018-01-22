@@ -12,8 +12,8 @@
   - [Authentication](endpoints/authentication.md)
   - [CORS](endpoints/cors.md)
   - [IP Addresses](endpoints/ip_addresses.md)
-  - [Database query](endpoints/database_query.md)
-  - [Delete endpoint](endpoints/delete_endpoint.md)
+  - [Database Query](endpoints/database_query.md)
+  - [Delete Endpoint](endpoints/delete_endpoint.md)
   - [Statistics](endpoints/statistics.md)
   - [Test](endpoints/test.md)
   
