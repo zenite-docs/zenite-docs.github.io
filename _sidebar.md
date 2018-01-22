@@ -7,7 +7,7 @@
   - [Querying your database](query/query.md)
   
 - Endpoints
-  - [Creating an endpoint](endpoints/endpoints.md)
+  - [Creating an endpoint](endpoints/create.md)
   - [General configuration](endpoints/general_configuration.md)
   - [Authentication](endpoints/authentication.md)
   - [CORS](endpoints/cors.md)
