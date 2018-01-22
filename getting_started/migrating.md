@@ -17,4 +17,4 @@ pg_dump --dbname your-database-name --username your-username --password your-pas
 mongodump --db your-database-name --username your-username --password your-password --authenticationDatabase admin --archive --gzip --quiet > database.gz
 ```
 
-After the archive has been created, login to zenite and upload the resulting archive file to server.zenite.io -> Backups -> Upload. After the files has uploaded, click the restore icon to restore the database onto the server.
+After the archive has been created, login to zenite and upload the resulting archive file to server.zenite.io -> Backups -> Upload. After the file has been uploaded, click the restore icon to restore the database onto the server.
