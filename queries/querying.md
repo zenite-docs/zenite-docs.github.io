@@ -1,3 +1,3 @@
-# Querying
+# Querying your database
 
 todo
