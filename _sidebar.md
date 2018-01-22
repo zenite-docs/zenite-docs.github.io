@@ -3,8 +3,8 @@
   - [Migrating an existing database](start/migrating.md)
   - [Scaling a server](start/scaling.md)
 
-- Queries
-  - [Querying your database](queries/querying.md)
+- Query
+  - [Querying your database](query/query.md)
   
 - Endpoints
   - [Creating an endpoint](endpoints/endpoints.md)
