@@ -15,7 +15,7 @@
   - [Database Query](endpoints/database_query.md)
   - [Delete Endpoint](endpoints/delete_endpoint.md)
   - [Statistics](endpoints/statistics.md)
-  - [Test](endpoints/test.md)
+  - [Test](test.md)
   
 - Backups
   - [Manual backups](backups/manual.md)
