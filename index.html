@@ -23,7 +23,15 @@
         '/endpoints',
         '/query',
         '/start'
-      ]
+      ],
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto', // or 'auto'
+        placeholder: 'Type to searchh',
+        noData: 'No Results!',
+        depth: 2
+      }
+      
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
