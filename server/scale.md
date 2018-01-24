@@ -2,7 +2,9 @@
 
 If your current server requires additional resources, you can scale the server up:
 
-1. Click server.zenite.io -> Scale up and choose a new tier.
+1. Click server.zenite.io (your server name)
+2. Click "Scale up".
+3. Choose a new tier.
 2. Click "Scale".
 
 The scaling process will shutdown your server for 10-15 minutes (possibly more, depending on the size of your disk).
