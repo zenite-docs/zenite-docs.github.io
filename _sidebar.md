@@ -1,13 +1,13 @@
 - Getting started
-  - [Creating a server](create_server.md)
-  - [Migrating an existing database](migrate.md)
-  - [Scaling a server](scale.md)
+  - [Creating a server](server/create.md)
+  - [Migrating an existing database](server/migrate.md)
+  - [Scaling a server](server/scale.md)
 
 - Query
-  - [Querying your database](query.md)
+  - [Querying your database](query/query.md)
   
 - Endpoints
-  - [Creating an endpoint](create_endpoint.md)
+  - [Creating an endpoint](endpoints/create.md)
   - [General configuration](general_configuration.md)
   - [Authentication](authentication.md)
   - [CORS](cors.md)
@@ -15,7 +15,7 @@
   - [Database Query](database_query.md)
   - [Delete Endpoint](delete_endpoint.md)
   - [Statistics](statistics.md)
-  - [Test](test.md)
+  - [Test](endpoints/test.md)
   
 - Backups
   - [Manual backups](manual.md)
