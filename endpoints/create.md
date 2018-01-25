@@ -16,13 +16,19 @@ URL: https://server.zenite.io/getusers?firstname=John
 #### POST
 ```
 URL: https://server.zenite.io/getusers
-Body: { "firstname": "John" }
+Body (JSON): { "firstname": "John" }
 ```
 
-The parameter **firstname** maps to the SQL query as $firstname, such as:
+The URL parameter **firstname** maps to the SQL query as **$firstname**, such as:
 
+#### MariaDB / PostgreSQL
 ```sql
 SELECT * FROM Users WHERE firstname = $firstname
+```
+
+#### MongoDB
+```javascript
+db.users.find({ firstname: $firstname })
 ```
 
 In this example, URL will return all users named John in JSON format.
