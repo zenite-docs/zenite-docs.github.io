@@ -13,7 +13,7 @@ zenite is a Database-as-a-Service platform which enables the users to:
 2. Verify your email and login with your credentials at https://portal.zenite.io
 3. Create a server and connect to your database server.
 
-# Billing and trial
+## Billing and trial
 
 zenite is billed using pay-as-you-go payment model, which means that your servers are billed by the minute and you only pay what you use.
 
