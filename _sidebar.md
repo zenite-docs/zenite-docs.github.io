@@ -1,4 +1,5 @@
 - Getting started
+  - [Introduction](README.md)
   - [Creating a server](server/create.md)
   - [Migrating an existing database](server/migrate.md)
   - [Scaling a server](server/scale.md)
