@@ -9,12 +9,12 @@ https://server.zenite.io/getusers
 Data can be passed to the endpoint as query (for GET) or body (for POST) parameters, for example:
 
 #### GET
-```
+```javascript
 URL: https://server.zenite.io/getusers?firstname=John
 ```
 
 #### POST
-```
+```javascript
 URL: https://server.zenite.io/getusers
 Body (JSON): { "firstname": "John" }
 ```
