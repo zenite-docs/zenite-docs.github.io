@@ -1,6 +1,11 @@
 # zenite
 
-zenite is a Database-as-a-Service platform which enables the users to deploy databases (MariaDB, PostgreSQL or MongoDB) on high-performance servers and define a secure (HTTPS) API to access or modify the database data using raw SQL or MongoDB queries. It also enables the users to create backups, either manual or through predefined schedules. It also features running database queries directly from the web application.
+zenite is a Database-as-a-Service platform which enables the users to:
+
+* deploy databases (MariaDB, PostgreSQL or MongoDB) on high-performance servers
+* define a secure (HTTPS) API to access or modify the database data using raw SQL or MongoDB queries
+* create backups, either manual or through predefined schedules
+* run database queries directly from the web application
 
 ## Quick start
 
