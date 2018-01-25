@@ -13,8 +13,8 @@ zenite is a Database-as-a-Service platform which enables the users to:
 2. Verify your email and login with your credentials at https://portal.zenite.io
 3. Create a server and connect to your database server.
 
-## Billing and trial
+## Billing
 
 zenite is billed using pay-as-you-go payment model, which means that your servers are billed by the minute and you only pay what you use.
 
-You can try zenite for free for 10 days using on Standard 1024 tier (read more on tiers here). After the trial period has ended, you will need to provide the billing data or your account will be deleted.
+You can try zenite for free for *10 days* using on Standard 1024 tier (read more on tiers here). After the trial period has ended, you will need to provide the billing data or your account will be deleted.
