@@ -34,7 +34,7 @@ db.users.find({ firstname: $firstname })
 In this example, URL will return all users named John in JSON format.
 
 
-# Creating a endpoint
+# Creating an endpoint
 
 1. Click server.zenite.io (your server name).
 2. Click "Endpoints".
