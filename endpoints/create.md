@@ -19,7 +19,7 @@ URL: https://server.zenite.io/getusers
 Body: { "firstname": "John" }
 ```
 
-The parameter firstname maps to the SQL query as $firstname, such as:
+The parameter **firstname** maps to the SQL query as $firstname, such as:
 
 ```sql
 SELECT * FROM Users WHERE firstname = $firstname
