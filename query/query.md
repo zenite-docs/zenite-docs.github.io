@@ -4,7 +4,7 @@ zenite allows you to query your database directly from the web interface.
 
 1. Click server.zenite.io (your server name).
 2. Click "Databases".
-3. CLick "Query".
+3. Click "Query".
 4. From the top right dropdown menu, pick a database to run your query on.
 5. Write your (SQL for MariaDB/PostgreSQL or JavaScript for MongoDB) query.
 6. Click "Execute".
