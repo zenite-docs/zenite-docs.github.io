@@ -17,12 +17,27 @@
       loadSidebar: true,
       name: 'zenite',
       themeColor: '#1E88E5',
-      nameLink: 'https://zenite.io'
+      nameLink: 'https://zenite.io',
+      plugins: [
+        function (hook, vm) {
+          hook.beforeEach(function(html, next) {
+            var xhr = new XMLHttpRequest();
+            xhr.onload = function() {
+              if (xhr.status >= 200 && xhr.status <= 299) {
+                next(html.replace("<pricing_placeholder>", xhr.responseText));
+              }
+            }
+            xhr.open("GET", "https://portal.zenite.io/pricing/table", true);
+            xhr.send();
+          })
+        }
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-sql.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
 </body>
 </html>

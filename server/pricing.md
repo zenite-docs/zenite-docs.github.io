@@ -14,6 +14,9 @@ zenite offers multiple pricing tiers to choose from:
 | Standard 65536  | 16 CPU cores, 65536 MB RAM, 1152 GB SSD Disk, 1 TB transfer | $1036.80/month ($1.44/hr)  |
 | Standard 81920  | 20 CPU cores, 81920 MB RAM, 1536 GB SSD Disk, 1 TB transfer | $1382.40/month ($1.92/hr)  |
 
+
+<pricing_placeholder>
+
 ### Notes
 
 * The invoice is generated from the amount spent at the end of each month (for that month).
