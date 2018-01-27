@@ -21,4 +21,4 @@ You can try zenite for free for **10 days** using on Standard 1024 tier (read mo
 
 ## Contact
 
-If you need help you can contact us at support@zenite.io. We would love to hear your questions and suggestions.
+If you need help you can contact us at [support@zenite.io](mailto:support@zenite.io). We would love to hear your questions and suggestions.
