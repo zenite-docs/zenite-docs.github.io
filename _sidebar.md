@@ -8,6 +8,7 @@
   - [Querying your database](query/query.md)
   
 - Endpoints
+  - [Overview](endpoints/overview.md)
   - [Creating an endpoint](endpoints/create.md)
   - [General configuration](general_configuration.md)
   - [Authentication](authentication.md)
