@@ -1,4 +1,6 @@
-zenite offers multiple tiers to choose from:
+# Pricing
+
+zenite offers multiple pricing tiers to choose from:
 
 | Tier           | Specification                                          | Price                    |
 | -------------- | ------------------------------------------------------ | ------------------------ |

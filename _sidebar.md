@@ -3,7 +3,7 @@
   - [Creating a server](server/create.md)
   - [Migrating an existing database](server/migrate.md)
   - [Scaling a server](server/scale.md)
-  - [Server tiers](server/tiers.md)
+  - [Pricing](server/pricing.md)
 
 - Query
   - [Querying your database](query/query.md)
