@@ -1,6 +1,6 @@
 # Querying your database
 
-zenite allows you to query your database directly from the web interface.
+zenite allows you to query your database directly from the web interface. Query window supports autocomplete features.
 
 1. Click server.zenite.io (your server name).
 2. Click "Databases".
