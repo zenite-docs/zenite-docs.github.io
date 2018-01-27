@@ -2,7 +2,7 @@
 
 zenite allows you to query your database directly from the web interface. Query window supports autocomplete features.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/zenite-docs/zenite-docs.github.io/master/_images/query.png "Query")
 
 1. Click server.zenite.io (your server name).
 2. Click "Databases".
