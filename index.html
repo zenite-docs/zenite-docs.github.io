@@ -21,14 +21,18 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function(html, next) {
-            var xhr = new XMLHttpRequest();
-            xhr.onload = function() {
-              if (xhr.status >= 200 && xhr.status <= 299) {
-                next(html.replace("<pricing_placeholder>", xhr.responseText));
+            if (html.substring(0, 9) == "# Pricing") {
+              var xhr = new XMLHttpRequest();
+              xhr.onload = function() {
+                if (xhr.status >= 200 && xhr.status <= 299) {
+                  next(html.replace("<pricing_placeholder>", xhr.responseText));
+                }
               }
+              xhr.open("GET", "https://zenite.io/pricing/table", true);
+              xhr.send();
+            } else {
+              next(html);
             }
-            xhr.open("GET", "https://zenite.io/pricing/table", true);
-            xhr.send();
           })
         }
       ]
