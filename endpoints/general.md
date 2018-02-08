@@ -61,7 +61,7 @@ SELECT * FROM Users WHERE name = $name AND age = $age
 
 #### MongoDB
 ```javascript
-db.users.find({ $and: [{ name: $name }, { age: 30 }] })
+db.users.find({ $and: [{ name: $name }, { age: $age }] })
 
 ```
 
