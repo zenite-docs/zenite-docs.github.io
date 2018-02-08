@@ -1,34 +1,9 @@
 # Overview
 
-endpoints are basic API definitions that allow users to access or modify the database data through HTTPS using JWT authentication. The endpoint host is running on the database server.
+endpoints are basic API definitions that allow users to access or modify the database through defined database query. Data is secured using HTTPS and JWT authentication. The endpoint host is running on the database server.
 
 The endpoint has the following format:
 
-https://server.zenite.io/getusers
+https://your-server-name.zenite.io/getusers
 
-Data can be passed to the endpoint as query (for GET) or body (for POST) parameters, for example:
-
-#### GET
-```javascript
-URL: https://server.zenite.io/getusers?firstname=John
-```
-
-#### POST
-```javascript
-URL: https://server.zenite.io/getusers
-Body (JSON): { "firstname": "John" }
-```
-
-The URL parameter **firstname** maps to the SQL query as **$firstname**, such as:
-
-#### MariaDB / PostgreSQL
-```sql
-SELECT * FROM Users WHERE firstname = $firstname
-```
-
-#### MongoDB
-```javascript
-db.users.find({ firstname: $firstname })
-```
-
-In this example, URL will return all users named John in JSON format.
+Data can be passed to the endpoint as query or body (JSON) parameters, for GET or POST requests respecively. For more info on passing parameters to endpoints, read [General configuration](endpoints/general.md).

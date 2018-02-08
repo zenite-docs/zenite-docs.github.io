@@ -2,7 +2,7 @@
 
 zenite allows you to query your database directly from the web interface. Query window supports autocomplete features.
 
-1. Click server.zenite.io (your server name).
+1. Click your-server-name.zenite.io.
 2. Click "Databases".
 3. Click "Query".
 4. From the top right dropdown menu, pick a database to run your query on.

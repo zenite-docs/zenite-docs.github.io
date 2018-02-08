@@ -11,7 +11,7 @@
 - Endpoints
   - [Overview](endpoints/overview.md)
   - [Creating an endpoint](endpoints/create.md)
-  - [General configuration](general_configuration.md)
+  - [General configuration](endpoints/general.md)
   - [Authentication](authentication.md)
   - [CORS](cors.md)
   - [IP Addresses](ip_addresses.md)

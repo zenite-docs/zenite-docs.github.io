@@ -2,7 +2,7 @@
 
 If your current server requires additional resources, you can scale the server up:
 
-1. Click server.zenite.io (your server name)
+1. Click your-server-name.zenite.io.
 2. Click "Scale up".
 3. Choose a new tier.
 2. Click "Scale".
