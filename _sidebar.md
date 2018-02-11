@@ -5,7 +5,7 @@
   - [Pricing](start/pricing.md)
 
 - Server
-  - [Server information](server/information.md)
+  - [Server Information](server/information.md)
   - [Scaling a server](server/scale.md)
   - [Deleting a server](server/delete.md)
 

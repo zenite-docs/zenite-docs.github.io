@@ -1,4 +1,4 @@
-# Information
+# Server Information
 
 > Navigation: server.zenite.io > Information
 
