@@ -4,8 +4,6 @@
 
 The information tab contains the basic server information.
 
-Descriptions:
-
 * Created on - the date server was created on.
 * Server Type - the server database type.
 * Last seen online - the last time zenite received a server heartbeat.
