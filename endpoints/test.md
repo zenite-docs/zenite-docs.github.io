@@ -4,7 +4,7 @@
 
 You can test your endpoint directly from the web interface. If you are using CORS, make sure you have added https://portal.zenite.io to the list of allowed origins before you execute the test.
 
-Be warned, the test will affect your database data as it normally would be affected if the endpoint was accessed normally.
+> Warning: the test will affect your database data as it normally would be affected if the endpoint was accessed normally.
 
 ### GET
 
@@ -21,4 +21,4 @@ Enter the POST parameters, for example:
 }
 ```
 
-Cllick "POST". The response will be displayed as formatted JSON.
+Click "POST". The response will be displayed as formatted JSON.
