@@ -4,7 +4,7 @@
 
 You can test your endpoint directly from the web interface. If you are using CORS, make sure you have added https://portal.zenite.io to the list of allowed origins before you execute the test.
 
-> Warning: the test will affect your database data as it normally would be affected if the endpoint was accessed normally.
+> The test will affect your database data as it normally would be affected if the endpoint was accessed normally.
 
 ### GET
 
