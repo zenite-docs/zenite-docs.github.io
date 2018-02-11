@@ -15,7 +15,7 @@ You can pass parameters to your database query from the HTTP request parameters.
 
 ## Query parameter mapping
 
-The request query parameters are mapped as database query parameters starting with a $ (a dollar symbol), such as $name. You can use these variables directly in the query, as described below.
+The request query parameters are mapped to database query parameters by prefixing a $ (a dollar symbol), such as $name. You can use these variables directly in the query, as described below.
 
 ### Database query parameters
 
