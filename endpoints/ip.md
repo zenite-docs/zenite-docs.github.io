@@ -15,4 +15,4 @@ To configure the endpoint to only allow specific IP addresses, uncheck "Allow al
 
 To add the current user IP to the list, click "Add current user IP".
 
-Save the settings by clicking "Save".
+Save the settings by clicking the "Save" button.

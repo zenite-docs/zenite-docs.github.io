@@ -13,4 +13,4 @@ https://example1.com
 https://example2.com
 ```
 
-Save the settings by clicking "Save".
+Save the settings by clicking the "Save" button.
