@@ -13,6 +13,6 @@ To configure the endpoint to only allow specific IP addresses, uncheck "Allow al
 8.8.4.4
 ```
 
-To add the current user IP to the list, click "Add current user IP".
+To add the current user IP to the list, click the "Add current user IP" button.
 
 Save the settings by clicking the "Save" button.
