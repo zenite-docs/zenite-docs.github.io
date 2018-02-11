@@ -11,6 +11,6 @@ The first step is deploying the server that your database will reside on. Each s
   
 3. Choose a server tier. Take careful consideration of your future performance and storage requirements. If necessary, you can scale up the server at a later time, however this requires your server to be shut down and restarted.
 
-4. Choose a server region. Take into cosideration the location of the services/users that will connect to the database.
+4. Choose a server region. Take into consideration the location of the services/users that will connect to the database.
 
 5. Click "Deploy". The deployment process will start and will take approximately 2 minutes. After your server becomes available, the server icon in the menu will enable and you will be able to access the server.
