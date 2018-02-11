@@ -17,27 +17,27 @@ The request query parameters are mapped as database query parameters starting wi
 
 In this example, the URL parameter "name" maps to the SQL/MongoDB query as $name, and parameter "age" maps to SQL/MongoDB query as $age, such as:
 
-#### MariaDB / PostgreSQL
+##### MariaDB / PostgreSQL
 
 ```sql
 SELECT * FROM Users WHERE name = $name AND age = $age
 ```
 
-#### MongoDB
+##### MongoDB
 ```javascript
 db.users.find({ $and: [{ name: $name }, { age: $age }] })
 ```
 
 You can issue a GET or POST request (as configured in the [General configuration](endpoints/general.md)) to execute the query and return the result (in JSON format).
 
-#### GET
+##### GET
 
 GET requests will read database query parameters from the URL query parameters, for example:
 ```
 https://your-server-name.zenite.io/users?name=John&age=30
 ```
 
-#### POST
+##### POST
 
 POST requests will read database query parameters from a JSON object in the request body, for example:
 
@@ -52,7 +52,7 @@ POST requests will read database query parameters from a JSON object in the requ
 
 The response returned has the following format:
 
-#### MariaDB / PostgreSQL
+##### MariaDB / PostgreSQL
 
 ```json
 [
@@ -73,6 +73,6 @@ The response returned has the following format:
 ]
 ```
 
-#### MongoDB
+##### MongoDB
 
 MongoDB queries are returned in the exact format the MongoDB shell would print the result. To ensure the response can be deserialized to JSON format, please ensure that your query returns valid JSON.
