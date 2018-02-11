@@ -21,9 +21,18 @@ Check or uncheck this option to enable or disable your endpoint. Disabled endpoi
 }
 ```
 
-##### Return error message text on failed HTTP requests
+##### Return error message text on internal endpoint errors
 
-If this option is checked, endpoints will return descriptive JSON body on why the request failed (for example, when the endpoint is disabled like in the above example) along with the corresponding HTTP status code.
+If this option is checked, endpoints will return descriptive JSON body on internal endpoint errors (for example, when the endpoint is disabled like in the above example) along with the corresponding HTTP status code.
+
+The endpoint errors are returned in the following format:
+
+```json
+{
+    "error": "(error message)",
+    "status": (error code)
+}
+```
 
 If this option is unchecked, an empty body will be returned along with the corresponding HTTP status code.
 

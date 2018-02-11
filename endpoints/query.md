@@ -86,14 +86,3 @@ Non-row or error results:
 ##### MongoDB
 
 MongoDB queries are returned in the exact format the MongoDB shell would print the result. To ensure the response can be deserialized to JSON format, please ensure that your query returns valid JSON.
-
-##### Errors
-
-If the "Return error message text on internal endpoint errors" option is enabled (check [General configuration](endpoints/general.md)), the endpoint errors are returned in the following format:
-
-```json
-{
-    "error": "(error message)",
-    "status": (error code)
-}
-```
