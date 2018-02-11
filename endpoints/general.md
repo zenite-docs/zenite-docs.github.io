@@ -29,40 +29,6 @@ If this option is unchecked, an empty body will be returned along with the corre
 
 ### HTTP method
 
-Choose a HTTP method to access your endpoint.
+Choose a HTTP method to access your endpoint. This will affect how you access your endpoint and how you pass the the database query parameters.
 
-#### GET
-
-GET requests will receive database query parameters as URL query parameters, for example:
-
-```
-https://your-server-name.zenite.io/users?name=John&age=30
-```
-
-#### POST
-
-POST request will receive database query parameters as JSON object, for example:
-
-```json
-{
-    "name": "John",
-    "age": 30
-}
-```
-
-### Query parameter mapping
-
-The URL parameter **name** maps to the SQL/MongoDB query as **$name**, and parameter **age** maps to SQL/MongoDB query as **$age**, such as:
-
-#### MariaDB / PostgreSQL
-```sql
-SELECT * FROM Users WHERE name = $name AND age = $age
-```
-
-#### MongoDB
-```javascript
-db.users.find({ $and: [{ name: $name }, { age: $age }] })
-
-```
-
-In this example, URL will return all users named John aged 30 years, in JSON format.
+For more information on passing database query parameters, visit [Database query](endpoints/query.md).
