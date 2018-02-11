@@ -12,7 +12,6 @@ You can create a schedule that will backup your database automatically in regula
 
 On every configured interval, a backup will be triggered automatically.
 
-
 The Scheduled backups grid below will show the last 50 backup archives that have been created. Click on any backup name to download the backup archive locally, or click the restore the icon in the grid to restore the backup directly onto the server.
 
 Please note that the backups older than last 50 are automatically deleted. Configure your Cron interval appropriately to ensure your backup history is sufficient.
