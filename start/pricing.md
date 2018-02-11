@@ -7,4 +7,4 @@ zenite offers multiple pricing tiers to choose from:
 ### Notes
 
 * The invoice is generated from the amount spent at the end of each month (for that month).
-* A "month" is counted as 30 days.
+* The billing timer is active only while server is running. You will not be billed for any downtime (maintenance, user initiated scaling etc.)

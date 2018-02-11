@@ -1,11 +1,13 @@
 - Getting started
   - [Introduction](/)
-  - [Creating a server](server/create.md)
-  - [Migrating an existing database](server/migrate.md)
+  - [Creating a server](start/create.md)
+  - [Migrating an existing database](start/migrate.md)
+  - [Pricing](start/pricing.md)
+
+- Server
   - [Server information](server/information.md)
   - [Scaling a server](server/scale.md)
   - [Deleting a server](server/delete.md)
-  - [Pricing](server/pricing.md)
 
 - Query
   - [Querying your database](query/query.md)
@@ -23,8 +25,8 @@
   - [Test](endpoints/test.md)
   
 - Backups
-  - [Manual backups](manual.md)
-  - [Scheduled backups](scheduled.md)
-  - [Upload an existing backup](upload.md)
+  - [Manual backups](backup/manual.md)
+  - [Scheduled backups](backup/schedule.md)
+  - [Upload an existing backup](backup/upload.md)
 
 - [Changelog](changelog.md)
