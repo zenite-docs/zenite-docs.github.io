@@ -1,6 +1,6 @@
 # Authentication
 
-> server.zenite.io > Endpoints > endpoint-name > Authentication
+> zenite > server.zenite.io > Endpoints > endpoint-name > Authentication
 
 Endpoints are authorized using JSON Web Tokens (JWT). For more information, check the official JWT site:
 

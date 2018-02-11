@@ -1,6 +1,6 @@
 # Deleting a server
 
-> server.zenite.io > Delete
+> zenite > server.zenite.io > Delete
 
 Do the following actions:
 

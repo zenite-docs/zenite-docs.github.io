@@ -1,6 +1,6 @@
 # General configuration
 
-> server.zenite.io > Endpoints > endpoint-name > General
+> zenite > server.zenite.io > Endpoints > endpoint-name > General
 
 ### Endpoint name
 
