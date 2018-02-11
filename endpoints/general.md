@@ -1,6 +1,6 @@
 # General configuration
 
-> Navigation: Endpoints > endpoint-name > General
+> Navigation: server.zenite.io > Endpoints > endpoint-name > General
 
 ### Endpoint name
 

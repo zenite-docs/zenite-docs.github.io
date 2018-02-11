@@ -1,6 +1,6 @@
 # Delete Endpoint
 
-> Navigation: Endpoints > endpoint-name > Delete
+> Navigation: server.zenite.io > Endpoints > endpoint-name > Delete
 
 To delete an endpoint, do the following actions:
 
