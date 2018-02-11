@@ -2,7 +2,7 @@
 
 Configure the query that will be used to access or modify your database data.
 
-1. Choose a database on which the query will be executed.
+1. Choose a database from the drop-down on which the query will be executed.
 2. Write your query, for example:
 
 ```sql

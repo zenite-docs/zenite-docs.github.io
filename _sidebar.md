@@ -2,7 +2,9 @@
   - [Introduction](/)
   - [Creating a server](server/create.md)
   - [Migrating an existing database](server/migrate.md)
+  - [Server information](server/information.md)
   - [Scaling a server](server/scale.md)
+  - [Deleting a server](server/delete.md)
   - [Pricing](server/pricing.md)
 
 - Query

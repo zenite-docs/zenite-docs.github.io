@@ -19,9 +19,9 @@ mongodump --db your-database-name --username your-username --password your-passw
 
 After the archive has been created, do the following actions:
 
-1. Click your-server-name.zenite.io.
-2. Choose "Backups" category.
-3. Choose "Upload".
-2. Click "Choose Files..." and select an archive that you just created on your server.
+1. Click the "your-server-name.zenite.io" the.
+2. Click the "Backups" tab.
+3. Click the "Upload" tab.
+2. Click "Choose Files..." button and select an archive that you just created on your server.
 3. Click the "Upload" button.
 4. After the file has been uploaded, click the restore icon in the grid to restore the database onto the server.
