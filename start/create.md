@@ -19,6 +19,6 @@ To deploy a server, do the following actions:
 
    > Take into consideration the location of the services/users that will connect to the database.
 
-4. Click "Deploy".
+4. Click the "Deploy" button.
 
 The deployment process will start and will take approximately 2 minutes. After your server becomes available, the server icon in the menu will enable and you will be able to access the server.
