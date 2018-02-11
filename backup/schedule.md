@@ -1,6 +1,6 @@
 # Scheduled backups
 
-> zenite > server.zenite.io > Backups > Schedule
+> Navigation: Backups > Schedule
 
 You can create a schedule that will backup your database automatically in regular intervals. The minimum backup interval is 1 hour.
 

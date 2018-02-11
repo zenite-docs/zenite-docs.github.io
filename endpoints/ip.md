@@ -1,6 +1,6 @@
 # IP Addresses
 
-> zenite > server.zenite.io > Endpoints > endpoint-name > IP Addresses
+> Navigation: Endpoints > endpoint-name > IP Addresses
 
 You can restrict the endpoint access to specific IP addresses.
 

@@ -1,6 +1,6 @@
 # Upload an existing backup
 
-> zenite > server.zenite.io > Backups > Upload
+> Navigation: Backups > Upload
 
 ### Upload
 

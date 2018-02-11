@@ -1,6 +1,6 @@
 # CORS
 
-> zenite > server.zenite.io > Endpoints > endpoint-name > CORS
+> Navigation: Endpoints > endpoint-name > CORS
 
 If you are issuing endpoint requests from the browser, you can restrict the endpoint access to specific CORS origins.
 

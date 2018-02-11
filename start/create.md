@@ -1,6 +1,6 @@
 # Creating a server
 
-> zenite > New Server...
+> Navigation: New Server...
 
 The first step is deploying the server that your database will reside on. Each server is assigned an address, such as arnold.zenite.io, which is used to access the database using third-party clients (MySQL Workbench, pgadmin, robo3t etc.) or using secure user-defined endpoints.
 

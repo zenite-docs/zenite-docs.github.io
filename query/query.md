@@ -1,6 +1,6 @@
 # Querying your database
 
-> zenite > server.zenite.io > Databases > Query
+> Navigation: Databases > Query
 
 zenite allows you to query your database directly from the web interface. Query window supports autocomplete features.
 

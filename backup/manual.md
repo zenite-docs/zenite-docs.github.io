@@ -1,6 +1,6 @@
 # Manual backups
 
-> zenite > server.zenite.io > Backups > Manual
+> Navigation: Backups > Manual
 
 You can manually trigger the backup of any database immediately.
 
