@@ -1,3 +1,3 @@
 # Scheduled backups
 
-> Navigation: server.zenite.io > Backups > Schedule
+> server.zenite.io > Backups > Schedule

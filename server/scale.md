@@ -1,6 +1,6 @@
 # Scaling a server
 
-> Navigation: server.zenite.io > Scale up
+> server.zenite.io > Scale up
 
 If your current server requires additional resources, you can scale the server up:
 

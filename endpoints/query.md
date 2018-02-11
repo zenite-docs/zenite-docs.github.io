@@ -1,6 +1,6 @@
 # Database query
 
-> Navigation: server.zenite.io > Endpoints > your-endpoint-name > Database query
+> server.zenite.io > Endpoints > endpoint-name > Database query
 
 Configure the query that will be used to access or modify your database data.
 

@@ -1,6 +1,6 @@
 # Server Information
 
-> Navigation: server.zenite.io > Information
+> server.zenite.io > Information
 
 The information tab contains the basic server information.
 

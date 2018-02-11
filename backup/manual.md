@@ -1,3 +1,3 @@
 # Manual backups
 
-> Navigation: server.zenite.io > Backups > Manual
+> server.zenite.io > Backups > Manual

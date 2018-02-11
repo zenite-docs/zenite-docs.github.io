@@ -1,6 +1,6 @@
 # Statistics
 
-> Navigation: server.zenite.io > Endpoints > your-endpoint-name > Statistics
+> server.zenite.io > Endpoints > endpoint-name > Statistics
 
 You can view the endpoint statistics related to client requests made to this endpoint.
 

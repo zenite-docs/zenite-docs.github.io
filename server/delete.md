@@ -1,11 +1,11 @@
 # Deleting a server
 
-> Navigation: server.zenite.io > Delete
+> server.zenite.io > Delete
 
 Do the following actions:
 
 1. Enter the full server address in the input field to confirm delete, such as "your-server-name.zenite.io".
-2. Click "Delete" button.
+2. Click the "Delete" button.
 
 Warning: this action is irreversible. The server and all your databases on it will be deleted immediately.
 
