@@ -1,5 +1,7 @@
 # Statistics
 
+> Navigate: your-server-name.zenite.io -> Endpoints -> your-endpoint-name -> Statistics
+
 You can view the endpoint statistics related to client requests made to this endpoint.
 
 * Request count - The total number of requests made to this endpoint.

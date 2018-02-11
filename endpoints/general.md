@@ -1,5 +1,7 @@
 # General configuration
 
+> Navigate: your-server-name.zenite.io -> Endpoints -> your-endpoint-name -> General
+
 ### Endpoint name
 
 Choose an endpoint name to access your endpoint. This will affect your endpoint URL, for example, endpoint named "users" will have an URL in the format:

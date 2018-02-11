@@ -1,5 +1,7 @@
 # IP Addresses
 
+> Navigate: your-server-name.zenite.io -> Endpoints -> your-endpoint-name -> IP Addresses
+
 You can restrict the endpoint access to specific IP addresses.
 
 By default, endpoints allow all IP addresses.

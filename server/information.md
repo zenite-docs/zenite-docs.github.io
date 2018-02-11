@@ -1,9 +1,8 @@
 # Information
 
-The information tab contains the basic server information.
+> Navigate: your-server-name.zenite.io -> Information
 
-1. Click the "your-server-name.zenite.io" tab.
-2. Click the "Information" tab.
+The information tab contains the basic server information.
 
 Descriptions:
 
