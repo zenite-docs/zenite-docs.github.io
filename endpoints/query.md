@@ -58,7 +58,7 @@ POST requests will read database query parameters from a JSON object in the requ
 
 The response is returned in a JSON format described below.
 
-### MariaDB / PostgreSQL
+##### MariaDB / PostgreSQL
 
 Row results:
 ```json
@@ -89,6 +89,6 @@ Non-row or error results:
 ]
 ```
 
-### MongoDB
+##### MongoDB
 
 MongoDB queries are returned in the exact format the MongoDB shell would print the result. To ensure the response can be deserialized to JSON format, please ensure that your query returns valid JSON.
