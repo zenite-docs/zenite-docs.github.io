@@ -5,6 +5,8 @@ The information tab contains the basic server information.
 1. Click the "your-server-name.zenite.io" tab.
 2. Click the "Information" tab.
 
+Descriptions:
+
 * Created on - the date server was created on.
 * Server Type - the server database type.
 * Last seen online - the last time zenite received a server heartbeat.
