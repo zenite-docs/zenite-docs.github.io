@@ -21,13 +21,13 @@ The request query parameters are mapped as database query parameters starting wi
 
 In this example, the URL parameter "name" maps to the SQL/MongoDB query as $name, and parameter "age" maps to SQL/MongoDB query as $age, such as:
 
-#### MariaDB / PostgreSQL
+##### MariaDB / PostgreSQL
 
 ```sql
 SELECT * FROM Users WHERE name = $name AND age = $age
 ```
 
-#### MongoDB
+##### MongoDB
 ```javascript
 db.users.find({ $and: [{ name: $name }, { age: $age }] })
 ```
@@ -36,14 +36,14 @@ You can issue a GET or POST request (as configured in the [General configuration
 
 ### Request query parameters
 
-#### GET
+##### GET
 
 GET requests will read database query parameters from the URL query parameters, for example:
 ```
 https://your-server-name.zenite.io/users?name=John&age=30
 ```
 
-#### POST
+##### POST
 
 POST requests will read database query parameters from a JSON object in the request body, for example:
 
