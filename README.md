@@ -2,9 +2,9 @@
 
 zenite is a Database-as-a-Service platform which enables the users to:
 
-* deploy databases (MariaDB, PostgreSQL or MongoDB) on high-performance servers
+* deploy databases ([MariaDB](https://mariadb.org/), [PostgreSQL](https://www.postgresql.org/) or [MongoDB](https://www.mongodb.com/)) on high-performance servers
 * define a secure (HTTPS) API to access or modify the database data using raw SQL or MongoDB queries
-* create backups, either manual or through predefined schedules
+* create backups, on demand or through predefined schedules
 * run database queries directly from the web application
 
 ## Quick start
