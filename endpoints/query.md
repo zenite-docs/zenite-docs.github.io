@@ -50,10 +50,11 @@ POST requests will read database query parameters from a JSON object in the requ
 
 ### Response format
 
-The response returned has the following format:
+The response is returned in a JSON format described below.
 
 ##### MariaDB / PostgreSQL
 
+Row results:
 ```json
 [
     {
@@ -69,6 +70,15 @@ The response returned has the following format:
                 "Row 2, Column Value 3",
             ]
         ]
+    }
+]
+```
+
+Non-row or error results:
+```json
+[
+    {
+        "message": "(result or error message)"
     }
 ]
 ```
