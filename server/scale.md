@@ -1,4 +1,4 @@
-# Scaling
+# Scaling a server
 
 > Navigation: server.zenite.io > Scale up
 
