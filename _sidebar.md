@@ -16,8 +16,8 @@
   - [CORS](endpoints/cors.md)
   - [IP Addresses](endpoints/ip.md)
   - [Database Query](endpoints/query.md)
-  - [Delete Endpoint](delete_endpoint.md)
-  - [Statistics](statistics.md)
+  - [Delete Endpoint](endpoints/delete.md)
+  - [Statistics](endpoints/statistics.md)
   - [Test](endpoints/test.md)
   
 - Backups
