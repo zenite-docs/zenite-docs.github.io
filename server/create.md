@@ -15,7 +15,7 @@ The first step is deploying the server that your database will reside on. Each s
 
 3. Choose a server region.
 
-> Tip: Take into consideration the location of the services/users that will connect to the database.
+> Take into consideration the location of the services/users that will connect to the database.
 
 4. Click "Deploy".
 
