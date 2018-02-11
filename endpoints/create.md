@@ -1,6 +1,6 @@
 # Creating an endpoint
 
-1. Click the "your-server-name.zenite.io" tab).
+1. Click the "your-server-name.zenite.io" tab.
 2. Click the "Endpoints" tab.
 3. Click the "New endpoint..." tab.
 4. Choose an endpoint name. This will affect your URL name. Read more on endpoint naming in [General configuration](endpoints/general.md).
