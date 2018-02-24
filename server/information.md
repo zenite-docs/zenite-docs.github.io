@@ -15,5 +15,5 @@ The information tab contains the basic server information.
 
 You can use the root credentials to connect to the database server as root user with CLI or graphical clients (such as [MySQL Workbench](https://www.mysql.com/products/workbench/), [pgAdmin](https://www.pgadmin.org/), [Robo 3T](https://robomongo.org/) etc.):
 
-* Database root user username - the root username
-* Database root user password - the root password
+* Database server user username - the root username
+* Database server user password - the root password
