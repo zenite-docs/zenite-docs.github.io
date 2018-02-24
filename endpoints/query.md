@@ -114,7 +114,31 @@ If the query returned an error, the "message" field will contain the error messa
 
 ##### MongoDB
 
-MongoDB queries are returned in the exact format the MongoDB shell would print the result. To ensure the response can be deserialized to JSON format, please ensure that your query returns valid JSON.
+MongoDB queries are returned in the exact format the MongoDB shell would print the result. To ensure the response can be deserialized to JSON format, please ensure that your query returns valid JSON using `JSON.stringify()`, for example:
+
+```json
+JSON.stringify(db.getCollection('collection').find({}).toArray())
+```
+
+If an error or a message is returned, it will have the following format:
+
+```json
+{
+    "message": "(error or info message)",
+    "code": (error or info code)
+}
+```
 
 ## Response HTTP statuses
 If the transaction is executed without errors, the response HTTP status will be 200 (OK). If the transaction returns an error, the response HTTP status will be 500 (Internal Server Error)
+
+## Limits
+
+Endpoints and in-application query results are limited to 10000 rows per single request. Any query returning more rows will be executed, but the results will not be visible. Instead, the following will be returned:
+
+```json
+{
+    "message": "Script executed successfully, but the query returned more than 10000 rows. Please refine your query.",
+    "code": -100
+}
+```
