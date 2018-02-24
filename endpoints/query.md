@@ -71,7 +71,7 @@ The response is returned in a JSON format described below.
 
 The request result is an array of objects.
 
-Row results:
+###### Row results
 ```json
 [
     {
@@ -96,7 +96,7 @@ If the query returned any rows, the result array will contain an object with fie
 
 The "rows" field is an array containing column values (per row), and the "code" field indicates if the query returned an error (if the query returned any results, the code will be 0).
 
-Non-row or error results:
+###### Non-row or error results
 ```json
 [
     {
