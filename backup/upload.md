@@ -4,6 +4,10 @@
 
 ### Upload
 
+For more info on how to generate a backup archive from your existing database, check out [Migrating to zenite](start/migrate.md)
+
+***
+
 You can upload the existing backups to zenite with the following actions:
 
 1. Click "Choose Files..." button and select an archive you want to restore.
