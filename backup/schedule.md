@@ -14,8 +14,8 @@ On every configured interval, a backup will be triggered automatically.
 
 The Scheduled backups grid below will show the last 50 backup archives that have been created. Click on any backup name to download the backup archive, or click the restore the icon in the grid to restore the backup directly onto the server.
 
-The backup operation may slow down your database. Configure your interval appropriately (during non-business hours, for example).
+> The backup operation may slow down your database. Configure your interval appropriately (during non-business hours, for example).
 
-Please note that the backups older than last 50 are automatically deleted. Configure your Cron interval appropriately to ensure your backup history is sufficient.
+> Please note that the backups older than last 50 are automatically deleted. Configure your Cron interval appropriately to ensure your backup history is sufficient.
 
-Restoring a backup will overwrite the databases on the server with databases contained within the backup. Restore with caution.
+> Restoring a backup will overwrite the databases on the server with databases contained within the backup. Restore with caution.
