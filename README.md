@@ -1,5 +1,7 @@
 # zenite
 
+> In this top area, each article contains a navigation path through which the user would navigate inside zenite portal in order to reach the view that the article covers.
+
 zenite is a Database-as-a-Service platform which enables the users to:
 
 * deploy databases ([MariaDB](https://mariadb.org/), [PostgreSQL](https://www.postgresql.org/) or [MongoDB](https://www.mongodb.com/)) on high-performance servers

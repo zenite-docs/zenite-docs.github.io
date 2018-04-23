@@ -10,7 +10,7 @@
   - [Deleting a server](server/delete.md)
 
 - Query
-  - [Querying your database](query/query.md)
+  - [Executing a query](query/query.md)
   
 - Endpoints
   - [Overview](endpoints/overview.md)
