@@ -8,9 +8,8 @@
   - [Server Information](server/information.md)
   - [Scaling a server](server/scale.md)
   - [Deleting a server](server/delete.md)
-
-- Query
-  - [Executing a query](query/query.md)
+  - [Executing a query](server/query.md)
+  - [Server configuration](server/configuration.md)
   
 - Endpoints
   - [Overview](endpoints/overview.md)
