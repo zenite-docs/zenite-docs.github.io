@@ -5,7 +5,7 @@
   - [Pricing](start/pricing.md)
 
 - Server
-  - [Server Information](server/information.md)
+  - [Server information](server/information.md)
   - [Scaling a server](server/scale.md)
   - [Deleting a server](server/delete.md)
   - [Executing a query](server/query.md)
@@ -19,7 +19,7 @@
   - [CORS](endpoints/cors.md)
   - [IP Addresses](endpoints/ip.md)
   - [Database Query](endpoints/query.md)
-  - [Delete Endpoint](endpoints/delete.md)
+  - [Delete an endpoint](endpoints/delete.md)
   - [Statistics](endpoints/statistics.md)
   - [Test](endpoints/test.md)
   
