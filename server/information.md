@@ -10,7 +10,7 @@ The information tab contains the basic server information.
 * IP - the server public IP
 * Server Region - the datacenter region the server resides on
 * Server Tier - the server performance tier
-* Price per Month - the price of the server on monthly basis. This price **will not** change if there are any pricing changes on zenite. The price of already deployed servers for a single server tier will stay the same, always.
+* Price per Month - the price of the server on monthly basis. This price **will not** change if there are any pricing changes for the current server tier on zenite. The price of already deployed servers for a single tier will stay the same, always.
 
 ### Root credentials
 
