@@ -19,6 +19,8 @@
   - [CORS](endpoints/cors.md)
   - [IP Addresses](endpoints/ip.md)
   - [Database Query](endpoints/query.md)
+  - [Query parameter mapping](endpoints/mapping.md)
+  - [Response format](endpoints/response.md)
   - [Delete an endpoint](endpoints/delete.md)
   - [Statistics](endpoints/statistics.md)
   - [Test](endpoints/test.md)
