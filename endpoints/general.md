@@ -42,4 +42,4 @@ If this option is unchecked, an empty body will be returned along with the corre
 
 Choose a HTTP method to access your endpoint. This will affect how you access your endpoint and how you pass the the database query parameters.
 
-For more information on passing database query parameters, visit [Database query](endpoints/query.md).
+For more information on passing database query parameters, visit [Query parameter mapping](endpoints/mapping.md).
