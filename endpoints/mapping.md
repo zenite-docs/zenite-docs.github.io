@@ -1,11 +1,11 @@
 # Query parameter mapping
 
-The request query parameters are mapped to the database query variables by prefixing a $ (a dollar symbol) to the request query parameters, for example:
+The request query parameters are mapped to the database query variables by prefixing a $ (a dollar symbol) to the request query parameter, for example:
 
-| Request query parameter | Database variable   |
-| ----------------------- | ------------------- |
-| name                    | $name               |
-| age                     | $age                |
+| Request query parameter | Database query variable   |
+| ----------------------- | ------------------------- |
+| name                    | $name                     |
+| age                     | $age                      |
 
 You can use the database variables directly in the query, as described below.
 
