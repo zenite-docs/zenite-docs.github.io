@@ -9,5 +9,3 @@ zenite allows you to query your database directly from the web interface. Query 
 3. Click the "Execute" button.
 
 The query results will be shown below your query window (either as a searchable grid for SQL or formatted syntax-highlighted JSON for MongoDB).
-
-![alt text](https://raw.githubusercontent.com/zenite-docs/zenite-docs.github.io/master/_images/query.png "Query")
