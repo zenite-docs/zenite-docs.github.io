@@ -1,13 +1,13 @@
 # Query parameter mapping
 
-The request query parameters are mapped to the database query parameters by prefixing a $ (a dollar symbol), such as:
+The request query parameters are mapped to the database query variables by prefixing a $ (a dollar symbol) to the request query parameters, for example:
 
-| Request query parameter | Database parameter  |
+| Request query parameter | Database variable   |
 | ----------------------- | ------------------- |
 | name                    | $name               |
 | age                     | $age                |
 
-You can use these database parameters directly in the query, as described below.
+You can use the database variables directly in the query, as described below.
 
 ### Request query parameters
 
@@ -29,9 +29,9 @@ POST requests will map to the database query parameters from a JSON object in th
 }
 ```
 
-### Database query parameters
+### Database query variables
 
-Database query parameters are read directly from the request query parameters:
+Database query variables are read directly from the request query parameters when the endpoint URL is called:
 
 ##### MariaDB / PostgreSQL
 
