@@ -4,12 +4,12 @@
 
 The information tab contains the basic server information.
 
-* Created on - the date server was created on
-* Server Type - the server database type
-* Last seen online - the last time zenite received a server heartbeat
-* IP - the server public IP
-* Server Region - the datacenter region the server resides on
-* Server Tier - the server performance tier
+* Created on - the date server was created on.
+* Server Type - the server database type.
+* Last seen online - the last time zenite received a server heartbeat.
+* IP - the server public IP.
+* Server Region - the datacenter region the server resides on.
+* Server Tier - the server performance tier.
 * Price per Month - the price of the server on monthly basis. This price **will not** change if there are any pricing changes for the current server tier on zenite. The price of already deployed servers for a single tier will stay the same, always.
 
 ## Root credentials
