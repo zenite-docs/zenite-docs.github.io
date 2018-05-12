@@ -29,7 +29,7 @@ The request result is an array of objects representing table data.
 
 If the query returned any rows, the result array will contain an object with fields `rows` and `code`.
 
-The `rows` field is an array containing column values (per row), and the `code` field indicates if the query returned an error (if the query returned any results, the code will be 0).
+The `rows` field is an array containing column values (per row), and the `code` field indicates if the query returned an error (if the query did not return an error, the code will be 0).
 
 ### Non-row or error results
 ```json
