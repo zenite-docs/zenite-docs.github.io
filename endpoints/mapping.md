@@ -31,7 +31,7 @@ POST requests will map the database query variables from a JSON object in the re
 
 ## Database query variables
 
-Database query variables are read directly from the request query parameters when the endpoint URL is accessed (via GET or POST). Variables are passed as plain strings.
+Database query variables are read directly from the request query parameters when the endpoint URL is accessed (via GET or POST HTTP methods). Variables are passed as plain strings.
 
 Allowed characters in query parameters include: English uppercase and lowercase letters (A-Z, a-z), numbers (0-9), and the following set of characters:
 
