@@ -38,7 +38,7 @@ The endpoint errors are returned in the following format:
 
 If this option is unchecked, an empty body will be returned along with the corresponding HTTP status code. For increased security, consider disabling this options after the endpoint has been configured.
 
-### HTTP method
+## HTTP method
 
 Choose a HTTP method to access your endpoint. This will affect how you access your endpoint and how you pass the the database query parameters.
 
