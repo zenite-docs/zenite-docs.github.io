@@ -17,13 +17,15 @@ zenite is a cloud based Database-as-a-Service platform which enables you to:
 
 ## Billing
 
-zenite is billed using pay-as-you-go payment model. Servers are billed by the minute for the time the server remains online, so you only pay what you use.
+zenite is billed using pay-as-you-go payment model. Servers are billed by the minute for the time the server remains online, so you only pay for what you use.
 
 ### Trial
 
-You can try zenite for free for **10 days** using on Standard 1024 tier (read more on tiers [here](start/pricing.md)).
+You can try zenite for free for **10 days** on the Standard 1024 tier (read more on tiers [here](start/pricing.md)).
 
-Before the trial period ends, you will need to provide the billing information to prevent your servers from being deleted.
+Before the trial period ends, you will need to enter the billing information to prevent your servers from being deleted.
+
+After the billing information is entered, the trial period will end and you will be able to use the full feature version of zenite.
 
 ## Contact
 
