@@ -5,8 +5,8 @@
 You can manually trigger the backup of any non-system database immediately.
 
 1. Choose the database you want to backup from the drop-down.
-2. Click the "Trigger backup now" button.
-3. After the backup has been completed, the backup archive will appear in the "Manual backups" grid.
+2. Click the `Trigger backup now` button.
+3. After the backup has been completed, the backup archive will appear in the `Manual backups` grid.
 
 The maximum number of manual backup archives zenite can hold at once is 10.
 

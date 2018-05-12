@@ -8,7 +8,7 @@ Please note that the test will affect your database data as it normally would be
 
 ## GET
 
-Click "GET". The response will be displayed as formatted JSON.
+Click `GET`. The response will be displayed as formatted JSON.
 
 ## POST
 
@@ -21,4 +21,4 @@ Enter the POST parameters, for example:
 }
 ```
 
-Click "POST". The response will be displayed as formatted JSON.
+Click `POST`. The response will be displayed as formatted JSON.

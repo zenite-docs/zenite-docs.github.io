@@ -27,9 +27,9 @@ The request result is an array of objects.
 ]
 ```
 
-If the query returned any rows, the result array will contain an object with fields "rows" and "code".
+If the query returned any rows, the result array will contain an object with fields `rows` and `code`.
 
-The "rows" field is an array containing column values (per row), and the "code" field indicates if the query returned an error (if the query returned any results, the code will be 0).
+The `rows` field is an array containing column values (per row), and the `code` field indicates if the query returned an error (if the query returned any results, the code will be 0).
 
 ### Non-row or error results
 ```json
@@ -41,11 +41,11 @@ The "rows" field is an array containing column values (per row), and the "code" 
 ]
 ```
 
-If the query did not returned any rows (for example, INSERT or UPDATE commands), the result array will contain an object with fields "message" and "code".
+If the query did not returned any rows (for example, INSERT or UPDATE commands), the result array will contain an object with fields `message` and `code`.
 
-The "message" field contains the string with the result of the query, and the "code" field indicates if the query executed successfully.
+The `message` field contains the string with the result of the query, and the `code` field indicates if the query executed successfully.
 
-If the query returned an error, the "message" field will contain the error message, and the "code" field will be a negative integer (-1).
+If the query returned an error, the `message` field will contain the error message, and the `code` field will be a negative integer (-1).
 
 ## MongoDB
 
@@ -65,4 +65,4 @@ If an error or a message is returned, it will have the following format:
 ```
 
 ## Response HTTP statuses
-If the transaction is executed without errors, the response HTTP status will be 200 (OK). If the transaction returns an error, the response HTTP status will be 500 (Internal Server Error)
+If the transaction is executed without errors, the response HTTP status will be `200 (OK)`. If the transaction returns an error, the response HTTP status will be `500 (Internal Server Error)`

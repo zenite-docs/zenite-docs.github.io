@@ -20,6 +20,6 @@ JWT Bearer Token enables the default authentication mode using JWT Bearer Token.
 Authorization: Bearer <token>
 ```
 
-To generate a new token, click the "Generate new Token" button. This will generate a completely new access token and invalidate any existing tokens.
+To generate a new token, click the `Generate new Token` button. This will generate a completely new access token and invalidate any existing tokens.
 
-Save the settings by clicking the "Save" button.
+Save the settings by clicking the `Save` button.

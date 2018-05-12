@@ -4,7 +4,7 @@
 
 ## Endpoint name
 
-Choose an endpoint name to access your endpoint. This will affect your endpoint URL, for example, endpoint named "users" will have an URL in the format:
+Choose an endpoint name to access your endpoint. This will affect your endpoint URL, for example, endpoint named `users` will have an URL in the format:
 
 ```
 https://your-server-name.zenite.io/users
@@ -36,7 +36,7 @@ The endpoint errors are returned in the following format:
 }
 ```
 
-If this option is unchecked, an empty body will be returned along with the corresponding HTTP status code.
+If this option is unchecked, an empty body will be returned along with the corresponding HTTP status code. For increased security, consider disabling this options after the endpoint has been configured.
 
 ### HTTP method
 

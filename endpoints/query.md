@@ -11,7 +11,7 @@ Configure the query that will be used to access or modify your database data.
 SELECT * FROM Users;
 ```
 
-The queries configured in an endpoint are executed as a single database transaction.
+When possible, the queries configured on an endpoint are executed as a single database transaction.
 
 You can pass parameters to your database query from the HTTP request parameters, for example:
 
