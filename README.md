@@ -9,6 +9,8 @@ zenite is a cloud based Database-as-a-Service platform which enables you to:
 * create backups automatically, through predefined cron jobs.
 * query the database directly from the web application.
 
+***
+
 ## Quick start
 
 1. Register at https://portal.zenite.io/register
