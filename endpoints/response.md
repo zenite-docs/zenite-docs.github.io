@@ -4,7 +4,7 @@ The response is returned in a JSON format described below.
 
 ## MariaDB / PostgreSQL
 
-The request result is an array of objects.
+The request result is an array of objects representing table data.
 
 ### Row results
 ```json
