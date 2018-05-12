@@ -12,7 +12,7 @@ The information tab contains the basic server information.
 * Server Tier - the server performance tier
 * Price per Month - the price of the server on monthly basis. This price **will not** change if there are any pricing changes for the current server tier on zenite. The price of already deployed servers for a single tier will stay the same, always.
 
-### Root credentials
+## Root credentials
 
 You can use the root credentials to connect to the database server as root user with CLI or graphical clients (such as [MySQL Workbench](https://www.mysql.com/products/workbench/), [pgAdmin](https://www.pgadmin.org/), [Robo 3T](https://robomongo.org/) etc.):
 

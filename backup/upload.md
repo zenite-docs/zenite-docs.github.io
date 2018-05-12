@@ -2,7 +2,7 @@
 
 > (server) > Backups > Upload
 
-### Upload
+## Upload
 
 For more info on how to generate a backup archive from your existing database, check out [Migrating to zenite](start/migrate.md)
 

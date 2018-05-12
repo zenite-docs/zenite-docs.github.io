@@ -2,11 +2,11 @@
 
 The response is returned in a JSON format described below.
 
-##### MariaDB / PostgreSQL
+## MariaDB / PostgreSQL
 
 The request result is an array of objects.
 
-###### Row results
+### Row results
 ```json
 [
     {
@@ -31,7 +31,7 @@ If the query returned any rows, the result array will contain an object with fie
 
 The "rows" field is an array containing column values (per row), and the "code" field indicates if the query returned an error (if the query returned any results, the code will be 0).
 
-###### Non-row or error results
+### Non-row or error results
 ```json
 [
     {
@@ -45,14 +45,14 @@ If the query did not returned any rows (for example, INSERT or UPDATE commands),
 
 The "message" field contains the string with the result of the query, and the "code" field indicates if the query executed successfully.
 
-If the query returned an error, the "message" field will contain the error message, and the "code" field will be a negative integer (typically -1).
+If the query returned an error, the "message" field will contain the error message, and the "code" field will be a negative integer (-1).
 
-##### MongoDB
+## MongoDB
 
 MongoDB queries are returned in the exact format the MongoDB shell would print the result. To ensure the response can be deserialized to JSON format, please ensure that your query returns valid JSON using `JSON.stringify()`, for example:
 
-```json
-JSON.stringify(db.getCollection('collection').find({}).toArray())
+```javascript
+JSON.stringify(db.getCollection('collection').find({}).toArray());
 ```
 
 If an error or a message is returned, it will have the following format:

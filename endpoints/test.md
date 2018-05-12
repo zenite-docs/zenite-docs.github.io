@@ -6,11 +6,11 @@ You can test your endpoint directly from the web interface. If you are using COR
 
 Please note that the test will affect your database data as it normally would be affected if the endpoint was accessed normally.
 
-### GET
+## GET
 
 Click "GET". The response will be displayed as formatted JSON.
 
-### POST
+## POST
 
 Enter the POST parameters, for example:
 

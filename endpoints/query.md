@@ -8,12 +8,18 @@ Configure the query that will be used to access or modify your database data.
 2. Write your query, for example:
 
 ```sql
-SELECT * FROM Users
+SELECT * FROM Users;
 ```
 
-You can pass parameters to your database query from the HTTP request parameters.
-
 The queries configured in an endpoint are executed as a single database transaction.
+
+You can pass parameters to your database query from the HTTP request parameters, for example:
+
+```sql
+SELECT * FROM Users WHERE name = $name;
+```
+
+Read more about [Query parameter mapping](endpoints/mapping.md)
 
 ## Limits
 

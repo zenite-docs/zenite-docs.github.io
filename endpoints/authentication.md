@@ -6,13 +6,13 @@ Endpoints are authorized using JSON Web Tokens (JWT). For more information, chec
 
 https://jwt.io/
 
-### Modes
+## Modes
 
-##### Anonymous authentication
+### Anonymous authentication
 
 Anonymous authentication disables the authentication and allows any client to execute a query configured in the endpoint. This mode is not recommended in production environments since it opens up the endpoint to the public and can lead to unintentional security leaks. Use with caution and only for reading the data.
 
-##### JWT Bearer Token
+### JWT Bearer Token
 
 JWT Bearer Token enables the default authentication mode using JWT Bearer Token. To authorize an endpoint HTTP request, use an Authorization header with the Bearer token generated in the input field:
 
