@@ -56,7 +56,7 @@ The `code` field indicates whether the query returned an error. If the query ret
 
 If the query did not returned any rows (for example, INSERT or UPDATE commands) or returned an error, the result array will contain an object with fields `message` and `code`.
 
-The `message` field contains the string with the result of the query or an error message, and the `code` field indicates if the query executed successfully.
+The `message` field contains the string with the result of the query, or an error message. The `code` field indicates if the query executed successfully.
 
 If the query returned an error, the `message` field will contain the error message, and the `code` field will be set to `-1`.
 
