@@ -38,27 +38,29 @@ The request result is an array of objects representing the result of the each qu
 ]
 ```
 
-For each query, if the query should return rows and was executed successfully, the query result object will contain a field `rows`.
+For each query, if the query should return rows and was executed successfully, the query result object will contain a property `rows`.
 
-The `rows` field is an array containing row objects, with key-value pairs, where key is the column name and value is the column value for that row.
+The `rows` property is an array contains row objects, with key-value pairs, where key is the column name and value is the column value for that row.
 
-The `code` field indicates whether the query returned an error. If the query returned an error, `code` will be set to a non-zero value, otherwise it will be set to `0`. Typically, if the query returned any rows, the code will always be set to `0`, otherwise an error message will be contained in the `message` field, as described below.
+The `code` property indicates whether the query was executed successfully, as described below.
 
 ### Non-row or error results
 ```json
 [
+    /* query 1 result */
     {
         "message": "(result or error message)",
         "code": (code)
-    }
+    },
+    /* continued query results ... */
 ]
 ```
 
-If the query did not returned any rows (for example, INSERT or UPDATE commands) or returned an error, the result array will contain an object with fields `message` and `code`.
+If the query did not returned any rows (for example, INSERT or UPDATE commands) or returned an error, the result array will contain an object with properties `message` and `code`.
 
-The `message` field contains the string with the result of the query, or an error message. The `code` field indicates if the query executed successfully.
+The `message` property contains the message of a successful non-row query, or an error message for queries that return an error.
 
-If the query returned an error, the `message` field will contain the error message, and the `code` field will be set to `-1`.
+If the query was executed successfully, `code` will be set to `0`. If the query returned an error, `code` will be set to a non-zero value.
 
 ## MongoDB
 
