@@ -4,7 +4,7 @@ The response is returned in a JSON format described below.
 
 ## MariaDB / PostgreSQL
 
-The request result is an array of objects representing the result of the each query configured in the endpoint.
+The request result is an array of objects representing the result of each query configured in the endpoint.
 
 ### Row results
 ```json
