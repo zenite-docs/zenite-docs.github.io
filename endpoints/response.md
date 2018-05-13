@@ -34,7 +34,7 @@ The request result is an array of objects representing the result of the each qu
         ],
         "code": (code)
     },
-    /* continued queries ... */
+    /* continued query results ... */
 ]
 ```
 
