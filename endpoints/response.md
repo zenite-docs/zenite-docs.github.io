@@ -14,21 +14,21 @@ The request result is an array of objects representing the result of each query 
         "rows": [
             /* row 1 */
             {
-                "(Column 1 Name)": "(Column 1 Value)",
-                "(Column 2 Name)": "(Column 2 Value)",
-                "(Column 3 Name)": "(Column 3 Value)"
+                "(Column 1 Name)": "(Value 1)",
+                "(Column 2 Name)": "(Value 2)",
+                "(Column 3 Name)": "(Value 3)"
             },
             /* row 2 */
             {
-                "(Column 1 Name)": "(Column 1 Value)",
-                "(Column 2 Name)": "(Column 2 Value)",
-                "(Column 3 Name)": "(Column 3 Value)"
+                "(Column 1 Name)": "(Value 1)",
+                "(Column 2 Name)": "(Value 2)",
+                "(Column 3 Name)": "(Value 3)"
             },
             /* row 3 */
             {
-                "(Column 1 Name)": "(Column 1 Value)",
-                "(Column 2 Name)": "(Column 2 Value)",
-                "(Column 3 Name)": "(Column 3 Value)"
+                "(Column 1 Name)": "(Value 1)",
+                "(Column 2 Name)": "(Value 2)",
+                "(Column 3 Name)": "(Value 3)"
             },
             /* continued rows ... */
         ],
