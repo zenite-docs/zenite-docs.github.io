@@ -9,7 +9,7 @@ The request result is an array of objects representing the result of the each qu
 ### Row results
 ```json
 [
-    /* query 1 */
+    /* query 1 result */
     {
         "rows": [
             /* row 1 */
