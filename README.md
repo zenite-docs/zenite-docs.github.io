@@ -23,7 +23,7 @@ zenite is billed using pay-as-you-go payment model. Servers are billed by the mi
 
 ### Trial
 
-You can try zenite for free for **10 days** on the Standard 1024 tier (read more on tiers [here](start/pricing.md)). Before the trial period ends, you will need to enter the billing information to prevent your servers from being deleted.
+You can try zenite for free for **10 days** on the Nano 1GB tier (read more on tiers [here](start/pricing.md)). Before the trial period ends, you will need to enter the billing information to prevent your servers from being deleted.
 
 After the billing information is entered, the trial period will end and you will be able to use the full feature version of zenite.
 
