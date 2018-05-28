@@ -11,6 +11,7 @@
   - [Executing a query](server/query.md)
   - [Server configuration](server/configuration.md)
   - [Database credentials](server/credentials.md)
+  - [Metrics](server/metrics.md)
   
 - Endpoints
   - [Overview](endpoints/overview.md)
